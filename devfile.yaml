@@ -40,16 +40,11 @@ components:
             protocol: tcp
             scheme: http
             type: terminal
-  - container:
-      image: registry.access.redhat.com/ubi8/nodejs-12:1-36
-      mountSources: true
-      name: test
-      memoryLimit: 1024Mi
 commands:
   - exec:
       id: download app dependencies
       commandLine: "npm install"
-      component: test
+      component: node12
       workingDir: ${CHE_PROJECTS_ROOT}/express
       group:
         kind: build
