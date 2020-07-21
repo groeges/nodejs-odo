@@ -1,0 +1,1 @@
+{"apiVersion":"app.stacks/v1beta1","kind":"RuntimeComponent","metadata":{"name":"nodejs-deploy"},"spec":{"applicationImage":"image-registry.openshift-image-registry.svc:5000/default/nodejs-example","expose":true,"service":{"port":3000,"type":"ClusterIP"},"storage":{"mountPath":"/logs","size":"2Gi"}}}
