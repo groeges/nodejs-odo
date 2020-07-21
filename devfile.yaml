@@ -1,20 +1,8 @@
 schemaVersion: 2.0.0
 metadata:
   name: nodejs
-  #alpha.build-dockerfile: "https://raw.githubusercontent.com/groeges/devfile-registry/master/devfiles/nodejs/Dockerfile"
   alpha.build-dockerfile: "https://raw.githubusercontent.com/neeraj-laad/nodejs-stack-registry/build-deploy/devfiles/nodejs-basic/build/Dockerfile"
-  #alpha.build-dockerfile: "file:///Users/stevengroeger/test/Dockerfile"
-  #alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/gotemplated/devfiles/nodejs/deploy_deployment_nodeport.yaml"
   alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/gotemplated/devfiles/nodejs/deploy_deployment.yaml"
-  #alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/master/devfiles/nodejs/deploy_deployment.yaml"
-  #alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/gotemplated/devfiles/nodejs/deploy_appsody.yaml"
-  #alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/testing/devfiles/nodejs/deploy_deployment_ingress.yaml"
-  #alpha.deployment-manifest: "https://raw.githubusercontent.com/groeges/devfile-registry/testing/devfiles/nodejs/deploy_ingress_test.yaml"
-  #alpha.deployment-manifest: "file:///Users/stevengroeger/test/deploy_deployment.yaml"
-  #alpha.deployment-manifest: "file:///Users/stevengroeger/test/deploy_appsody_nodeport.yaml"
-  #alpha.deployment-manifest: "file:///Users/stevengroeger/test/deploy_deployment_nodeport.yaml"
-  #alpha.deployment-manifest: "file:///Users/stevengroeger/test/deploy_deployment_no_port_substitution.yaml"
-  #alpha.deployment-manifest: "file:///Users/stevengroeger/test/deploy_deployment_templated.yaml"
   version: 1.0.1
 projects:
   - name: express
